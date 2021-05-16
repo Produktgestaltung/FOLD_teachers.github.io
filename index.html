@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FOLD for teachers</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./lib/jquery-3.6.0.min.js"></script>
+    <script src="./base-url.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <span class="orange">FOLD</span>
+        for teachers
+      </h1>
+    </header>
+
+
+    <main>
+      <p>Course:</p>
+      <input
+        id="channel"
+        type="text"
+        maxlength="200"
+        placeholder="Your course"
+      />
+      <!-- <button id="clear-button">Clear Channel</button> -->
+
+      <p>Teacher:</p>
+      <input id="user" type="text" maxlength="200" placeholder="Your name" />
+
+      <p>Information:</p>
+      <form>
+        <input id="message1" type="text" maxlength="200" placeholder="1" />
+        <input id="message2" type="text" maxlength="200" placeholder="2" />
+        <input id="message3" type="text" maxlength="200" placeholder="3" />
+        <input id="message4" type="text" maxlength="200" placeholder="4" />
+        <input id="message5" type="text" maxlength="200" placeholder="5" />
+
+    <a href="https://www.dropbox.com/s/skjx3eevczdjmos/FOLD.pdf?dl=0" target="_blank">Form</a>
+        <button type="submit">Submit</button>
+      </form>
+
+      <!-- <p>List:</p> -->
+      <!-- <section class="messages">
+        <ul id="messages"></ul>
+      </section> -->
+
+      <!-- <p><a href="/clear">Clear</a></p> -->
+    </main>
+
+    <script src="./client.js"></script>
+  </body>
+</html>
